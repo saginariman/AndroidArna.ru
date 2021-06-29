@@ -34,9 +34,9 @@
 						$_SESSION['user']=$user;
 						
 					}
-					else $errors[]="Пароль неверный!";;
+					else $errors[]="Пароль неверный!";
 				}
-				else $errors[]="Логин не существует!";;		
+				else $errors[]="Логин не существует!";		
 			}
 			
 		}
