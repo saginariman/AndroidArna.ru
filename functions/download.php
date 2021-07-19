@@ -6,7 +6,7 @@
 		$updates=$_POST["updates"];
 		$top=$_POST["top"];
 		$how=$_POST["how"];
-		$news=$_POST["news"];
+		$news=$_POST["news"]; 
 		if($updates){
 			$result=$mysqli->query("SELECT * FROM `articles1` ORDER BY `id` DESC LIMIT {$startFrom}, 10");
 		}
